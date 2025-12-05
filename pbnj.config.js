@@ -4,16 +4,16 @@
  */
 export default {
   // Site name shown in title
-  name: "pbnj",
+  name: "Carneiro's Paste Bin",
 
   // Path to logo image
   logo: "/logo.png",
 
   // How paste IDs are generated: 'sandwich' | 'short' | 'uuid'
-  idStyle: "sandwich",
+  idStyle: "short",
 
   // Show public paste listing on homepage
-  homepage: true,
+  homepage: false,
 
   // Sort order for pastes on homepage: 'newest' | 'oldest'
   sortOrder: "oldest",
@@ -26,11 +26,11 @@ export default {
   //   Light: 'flexoki-light' (default), 'github-light', 'gruvbox-light', 'catppuccin-latte'
   //   Dark: 'flexoki-dark', 'github-dark', 'nord', 'gruvbox-dark', 'dracula',
   //         'catppuccin-frappe', 'catppuccin-macchiato', 'catppuccin-mocha'
-  theme: "flexoki-light",
+  theme: "github-light",
 
   // Footer configuration (optional)
-  // footer: {
-  //   text: "spread the code 🥪",
-  //   link: "https://github.com/bhavnicksm/pbnj",
-  // },
+  footer: {
+    text: "code by pbnj 🥪",
+    link: "https://github.com/bhavnicksm/pbnj",
+  },
 };
